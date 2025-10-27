@@ -8,8 +8,4 @@
     <StartupObject>ClassAssignment.SalalahDeliveryExpress.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="SalalahBookCafe\Models\" />
-  </ItemGroup>
-
 </Project>
