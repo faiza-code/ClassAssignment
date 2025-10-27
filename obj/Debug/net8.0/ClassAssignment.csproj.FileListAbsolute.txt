@@ -1,0 +1,4 @@
+C:\Users\USER PC\OneDrive\Documents\Makeen Project\MakeenSalalahSolution\ClassAssignment\obj\Debug\net8.0\ClassAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER PC\OneDrive\Documents\Makeen Project\MakeenSalalahSolution\ClassAssignment\obj\Debug\net8.0\ClassAssignment.AssemblyInfoInputs.cache
+C:\Users\USER PC\OneDrive\Documents\Makeen Project\MakeenSalalahSolution\ClassAssignment\obj\Debug\net8.0\ClassAssignment.AssemblyInfo.cs
+C:\Users\USER PC\OneDrive\Documents\Makeen Project\MakeenSalalahSolution\ClassAssignment\obj\Debug\net8.0\ClassAssignment.csproj.CoreCompileInputs.cache
