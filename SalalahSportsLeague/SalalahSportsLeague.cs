@@ -35,7 +35,7 @@ namespace ClassAssignment.SalalahSportsLeague
                         .ThenByDescending(t => t.GoalsFor);
         }
 
-        // Example usage
+       
         public static void Main()
         {
             var league = new SalalahSportsLeague();

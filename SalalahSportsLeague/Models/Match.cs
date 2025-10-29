@@ -30,7 +30,7 @@ namespace ClassAssignment.SalalahSportsLeague.Models
             else if (scoreTeam2 > scoreTeam1)
                 Winner = Team2;
             else
-                Winner = null; // Draw
+                Winner = null; 
 
             Team1.RecordMatchResult(scoreTeam1, scoreTeam2);
             Team2.RecordMatchResult(scoreTeam2, scoreTeam1);

@@ -14,12 +14,31 @@ namespace ClassAssignment.DhofarCarRental
         private List<Customer> customers = new List<Customer>();
         private List<RentalRecord> rentals = new List<RentalRecord>();
 
-        public void AddCar(Car car) => cars.Add(car);
-        public void AddCustomer(Customer customer) => customers.Add(customer);
+        public void AddCar(Car car)
+        {
+           cars.Add(car);
+        }
 
-        public IEnumerable<Car> GetAvailableCars() => cars.Where(c => c.Status == CarStatus.Available);
-        public IEnumerable<Car> GetRentedCars() => cars.Where(c => c.Status == CarStatus.Rented);
-        public IEnumerable<RentalRecord> GetAllRentals() => rentals;
+        public void AddCustomer(Customer customer)
+        {
+            customers.Add(customer);
+        }
+
+        public IEnumerable<Car> GetAvailableCars()
+        {
+            cars.Where(c => c.Status == CarStatus.Available);
+            return cars;
+        }
+        public IEnumerable<Car> GetRentedCars() { 
+            cars.Where(c => c.Status == CarStatus.Rented); 
+            return cars;
+        }
+        public IEnumerable<RentalRecord> GetAllRentals()
+        {
+           return rentals;
+        }
+
+
 
         public RentalRecord RentCar(int rentalId, int customerId, int carId, int durationDays)
         {
@@ -54,10 +73,10 @@ namespace ClassAssignment.DhofarCarRental
             rentalSystem.AddCustomer(new Customer(1, "Sultan"));
             rentalSystem.AddCustomer(new Customer(2, "Aisha"));
 
-            var rental1 = rentalSystem.RentCar(1, 1, 1, 5); // Sultan rents Toyota for 5 days
+            var rental1 = rentalSystem.RentCar(1, 1, 1, 5); 
             Console.WriteLine(rental1);
 
-            var rental2 = rentalSystem.RentCar(2, 2, 2, 3); // Aisha rents Honda for 3 days
+            var rental2 = rentalSystem.RentCar(2, 2, 2, 3); 
             Console.WriteLine(rental2);
 
             Console.WriteLine("Available cars:");

@@ -21,7 +21,7 @@ namespace ClassAssignment.DhofarCarRental.Models
         public override string ToString() => $"Customer {Id}: {Name}";
     }
 
-    // Rental record class
+  
     public class RentalRecord
     {
         public int Id { get; }

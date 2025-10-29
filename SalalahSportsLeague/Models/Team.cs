@@ -25,7 +25,7 @@ namespace ClassAssignment.SalalahSportsLeague.Models
 
         public IReadOnlyList<Player> Players => players.AsReadOnly();
 
-        // Stats for standings
+        
         public int Wins { get; private set; }
         public int Losses { get; private set; }
         public int Draws { get; private set; }

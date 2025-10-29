@@ -8,9 +8,9 @@ namespace ClassAssignment.SalalahBookCafe.Models
 {
     public class MenuItem
     {
-        public int Id { get; }
-        public string Name { get; }
-        public decimal Price { get; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
 
         public MenuItem(int id, string name, decimal price)
         {
